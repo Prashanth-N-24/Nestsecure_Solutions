@@ -24,7 +24,7 @@ const Main = () => {
                             transition={{ duration: 1 }}
                             className="font-bold text-4xl sm:text-7xl mb-6"
                         >
-                            Welcome to <br></br>NestSecure Solutions
+                            Welcome to <br></br>Nestsecure Solutions
                         </motion.h1>
                     </p>
 
@@ -67,7 +67,7 @@ const Main = () => {
                     <ScrollLink
                         to="service"
                         smooth={true}
-                        duration={500} className='group flex  top-[90%] sm:top-[85%]  absolute rounded-md sm:px-6 px-5 sm:py-3 py-2 items-center w-fit border-2 text-white hover:bg-white hover:text-black cursor-pointer duration-200 '>
+                        duration={500} className='group flex  top-[90%] sm:top-[85%]  absolute rounded-md sm:px-6 px-5 sm:py-3 py-2 items-center w-fit border text-white hover:bg-white hover:text-black cursor-pointer duration-200 '>
                         Learn more
                         <span className='group-hover:rotate-90 duration-200'>
                             <MdOutlineKeyboardArrowRight size={25} />
