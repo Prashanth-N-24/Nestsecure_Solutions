@@ -29,7 +29,7 @@ const Main = () => {
                     </p>
 
                     <p className='px-16 font-bold text-xl absolute top-[50%] text-center  text-white 
-                sm:text-4xl sm:top-[58%] sm:max-w-4xl sm:ml'>
+                sm:text-4xl sm:top-[55%] sm:max-w-4xl sm:ml'>
                         <motion.p
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
