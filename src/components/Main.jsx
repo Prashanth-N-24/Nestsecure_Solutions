@@ -28,7 +28,7 @@ const Main = () => {
                         </motion.h1>
                     </p>
 
-                    <p className='px-16 font-bold text-xl absolute top-[35%] text-center  text-white 
+                    <p className='px-16 font-bold text-xl absolute top-[42%] text-center  text-white 
                 sm:text-4xl sm:top-[60%] sm:max-w-4xl sm:ml'>
                         <motion.p
                             initial={{ opacity: 0, y: 50 }}
