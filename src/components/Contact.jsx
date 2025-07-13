@@ -19,7 +19,7 @@ const Contact = () => {
                     <p className='relative z-10 text-white text-lg font-bold text-center sm:pb-14 pb-4      px-4'>Submit the form below to get in touch with us.</p>
 
                     <div className='bg-white text-black relative z-10 flex justify-center  rounded-3xl'>
-                        <form action="https://getform.io/f/ajjowgwa" method='POST' className=' px-5 py-4 sm:px-12 sm:py-6 flex flex-col w-full '>
+                        <form action="https://getform.io/f/ajjowgwa" method='POST' className=' px-5 py-8 sm:px-12 sm:py-6 flex flex-col w-full '>
 
                             <label className='text-black text-sm' for="name" class="block" >Your First Name*    </label>
                             <input className='sm:w-[65vh] py-2 px-3 sm:px-4 sm:py-3 mb-4 rounded-lg border-2 border-gray-400' type="text" name="name" placeholder='Enter your name' />
