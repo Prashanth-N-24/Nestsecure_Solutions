@@ -29,7 +29,7 @@ const Main = () => {
                     </p>
 
                     <p className='px-16 font-bold text-xl absolute top-[50%] text-center  text-white 
-                sm:text-4xl sm:top-[60%] sm:max-w-4xl sm:ml'>
+                sm:text-4xl sm:top-[58%] sm:max-w-4xl sm:ml'>
                         <motion.p
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ const Main = () => {
                         </motion.p>
                     </p>
 
-                    <p className='sm:px-16 px-4 font-thin  text-base  absolute top-[58%] text-white text-justify sm:text-lg sm:top-[66%] sm:max-w-4xl sm:ml'>
+                    <p className='sm:px-16 px-4 font-thin  text-base  absolute top-[56%] text-white text-justify sm:text-lg sm:top-[66%] sm:max-w-4xl sm:ml'>
                         <motion.p
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
@@ -67,7 +67,7 @@ const Main = () => {
                     <ScrollLink
                         to="service"
                         smooth={true}
-                        duration={500} className='group flex  top-[90%] sm:top-[85%]  absolute rounded-md sm:px-6 px-5 sm:py-3 py-2 items-center w-fit border text-white hover:bg-white hover:text-black cursor-pointer duration-200 '>
+                        duration={500} className='group flex  top-[88%] sm:top-[85%]  absolute rounded-md sm:px-6 px-5 sm:py-3 py-2 items-center w-fit border text-white hover:bg-white hover:text-black cursor-pointer duration-200 '>
                         Learn more
                         <span className='group-hover:rotate-90 duration-200'>
                             <MdOutlineKeyboardArrowRight size={25} />
