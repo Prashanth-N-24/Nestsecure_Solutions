@@ -1,6 +1,7 @@
 import {Link} from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import React, { useState } from 'react'
+import White_Nss from '../assets/White_Nss.jpg'
 
 
 const Header = () => {
@@ -31,7 +32,8 @@ const Header = () => {
         <div name="header" className='fixed flex justify-between items-center w-full h-20 text-white bg-black/50 backdrop-blur-lg shadow-md z-50 border-yellow-500 border-b-4 rounded-b-3xl px-2
          sm:justify-around sm:border-b-4 sm:border-yellow-500 '>
             <div>
-                <h1 className='text-2xl font-signature ml-8 '>Nestsecure Solutions</h1>
+                <h1 className=' ' style={{ backgroundImage: `url(${White_Nss})` }}></h1>
+                
             </div>
 
             <ul className='hidden md:flex hover:'>
